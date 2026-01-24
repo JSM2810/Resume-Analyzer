@@ -1,0 +1,49 @@
+{
+  "Data Scientist": {
+    "required_skills": [
+      "python",
+      "sql",
+      "machine learning",
+      "data science",
+      "pandas",
+      "numpy",
+      "matplotlib"
+    ]
+  },
+
+  "Machine Learning Engineer": {
+    "required_skills": [
+      "python",
+      "machine learning",
+      "deep learning",
+      "tensorflow",
+      "pytorch",
+      "numpy",
+      "sql"
+    ]
+  },
+
+  "Web Developer": {
+    "required_skills": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "node",
+      "sql",
+      "git"
+    ]
+  },
+
+  "Backend Developer": {
+    "required_skills": [
+      "python",
+      "java",
+      "sql",
+      "flask",
+      "django",
+      "mongodb",
+      "git"
+    ]
+  }
+}

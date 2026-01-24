@@ -1,0 +1,38 @@
+Python
+Java
+C++
+SQL
+NoSQL
+Pandas
+NumPy
+scikit-learn
+TensorFlow
+PyTorch
+Keras
+Machine Learning
+Deep Learning
+NLP
+Natural Language Processing
+Data Analysis
+Data Visualization
+Power BI
+Tableau
+Docker
+Kubernetes
+AWS
+GCP
+Azure
+React
+Node.js
+JavaScript
+HTML
+CSS
+Git
+Linux
+REST APIs
+Microservices
+Spark
+Hadoop
+Fastapi
+Django
+flask
