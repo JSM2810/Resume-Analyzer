@@ -2,3 +2,10 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+sampleresumes/
+Official Resume.doxc
+.env
+.venv/
+venv/
+desktop.ini
+.DS_Store

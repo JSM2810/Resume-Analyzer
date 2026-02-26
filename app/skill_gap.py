@@ -4,8 +4,8 @@ CRITICAL_SKILLS = {
 }
 
 def compute_skill_gap(resume_skills, job_skills):
-    resume_set = set(s.lower() for s in resume_skills)
-    job_set = set(s.lower() for s in job_skills)
+    resume_set = set([s.lower().strip() for s in resume_skills])
+    job_set = set([s.lower().strip() for s in job_skills])
 
     matched_skills = sorted(resume_set & job_set)
     missing_skills = sorted(job_set - resume_set)

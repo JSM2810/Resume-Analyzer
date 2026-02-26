@@ -1,49 +1,185 @@
 {
+  "Machine Learning Engineer Intern": {
+    "responsibilities": [
+      "Build and evaluate machine learning models",
+      "Perform feature engineering and preprocessing",
+      "Work on NLP and structured data problems",
+      "Deploy ML models using REST APIs",
+      "Collaborate using Git version control"
+    ],
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Scikit-learn",
+      "Deep Learning",
+      "NLP",
+      "SQL",
+      "Git",
+      "Docker",
+      "REST APIs"
+    ],
+    "tools": ["TensorFlow", "PyTorch", "Pandas", "NumPy"]
+  },
+
   "Data Scientist": {
+    "responsibilities": [
+      "Perform exploratory data analysis",
+      "Build predictive models",
+      "Communicate insights using visualization",
+      "Deploy models into production"
+    ],
     "required_skills": [
-      "python",
-      "sql",
-      "machine learning",
-      "data science",
-      "pandas",
-      "numpy",
-      "matplotlib"
-    ]
+      "Python",
+      "Statistics",
+      "Machine Learning",
+      "SQL",
+      "Data Visualization",
+      "Feature Engineering"
+    ],
+    "tools": ["Pandas", "NumPy", "Scikit-learn", "Matplotlib"]
   },
 
-  "Machine Learning Engineer": {
+  "Data Analyst": {
+    "responsibilities": [
+      "Analyze structured datasets",
+      "Create dashboards and reports",
+      "Write optimized SQL queries",
+      "Present insights to stakeholders"
+    ],
     "required_skills": [
-      "python",
-      "machine learning",
-      "deep learning",
-      "tensorflow",
-      "pytorch",
-      "numpy",
-      "sql"
-    ]
+      "SQL",
+      "Excel",
+      "Power BI",
+      "Python",
+      "Data Cleaning",
+      "Statistics"
+    ],
+    "tools": ["Tableau", "Pandas"]
   },
 
-  "Web Developer": {
+  "Frontend Developer": {
+    "responsibilities": [
+      "Develop responsive user interfaces",
+      "Integrate frontend with backend APIs",
+      "Optimize UI performance",
+      "Maintain version control"
+    ],
     "required_skills": [
-      "html",
-      "css",
-      "javascript",
-      "react",
-      "node",
-      "sql",
-      "git"
-    ]
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "REST APIs",
+      "Git"
+    ],
+    "tools": ["Vercel", "Webpack"]
   },
 
   "Backend Developer": {
+    "responsibilities": [
+      "Develop scalable backend systems",
+      "Build REST APIs",
+      "Handle database management",
+      "Implement authentication systems"
+    ],
     "required_skills": [
-      "python",
-      "java",
-      "sql",
-      "flask",
-      "django",
-      "mongodb",
-      "git"
-    ]
+      "Python",
+      "Node.js",
+      "Java",
+      "SQL",
+      "REST APIs",
+      "Git"
+    ],
+    "tools": ["Django", "Spring Boot", "MongoDB"]
+  },
+
+  "Full Stack Developer": {
+    "responsibilities": [
+      "Develop frontend and backend systems",
+      "Integrate databases with applications",
+      "Deploy applications to cloud",
+      "Maintain CI/CD pipelines"
+    ],
+    "required_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL",
+      "Git"
+    ],
+    "tools": ["Docker", "AWS", "MongoDB"]
+  },
+
+  "DevOps Engineer": {
+    "responsibilities": [
+      "Manage CI/CD pipelines",
+      "Containerize applications",
+      "Deploy services to cloud platforms",
+      "Monitor system performance"
+    ],
+    "required_skills": [
+      "Linux",
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "AWS"
+    ],
+    "tools": ["Jenkins", "GitHub Actions", "Terraform"]
+  },
+
+  "Cloud Engineer": {
+    "responsibilities": [
+      "Deploy cloud infrastructure",
+      "Manage virtual networks",
+      "Implement IAM policies",
+      "Optimize cloud cost and performance"
+    ],
+    "required_skills": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Networking",
+      "Docker",
+      "Kubernetes"
+    ],
+    "tools": ["Terraform", "CloudFormation"]
+  },
+
+  "Cybersecurity Analyst": {
+    "responsibilities": [
+      "Monitor security incidents",
+      "Conduct vulnerability assessments",
+      "Analyze network traffic",
+      "Respond to cyber threats"
+    ],
+    "required_skills": [
+      "Networking",
+      "Linux",
+      "Cybersecurity",
+      "Ethical Hacking",
+      "Risk Assessment"
+    ],
+    "tools": ["Wireshark", "Nmap", "SIEM"]
+  },
+
+  "AI Engineer (GenAI Focus)": {
+    "responsibilities": [
+      "Develop LLM-based applications",
+      "Implement RAG pipelines",
+      "Fine-tune transformer models",
+      "Deploy AI services via APIs"
+    ],
+    "required_skills": [
+      "Python",
+      "Transformers",
+      "LLMs",
+      "Prompt Engineering",
+      "Vector Databases",
+      "REST APIs"
+    ],
+    "tools": ["HuggingFace", "LangChain", "FAISS"]
   }
 }

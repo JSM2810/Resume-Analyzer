@@ -68,20 +68,19 @@ def classify_skill_gap(missing_skills):
     }
 
 def explain_match(resume_skills, job_skills):
-    resume_set = set(resume_skills)
-    job_set = set(job_skills)
 
-    matched = sorted(resume_set & job_set)
-    missing = sorted(job_set - resume_set)
+    resume_set = set([skill.lower().strip() for skill in resume_skills])
+    job_set = set([skill.lower().strip() for skill in job_skills])
 
-    match_percent = round(
-        (len(matched) / len(job_set)) * 100, 2
-    ) if job_set else 0
+    matched = resume_set.intersection(job_set)
+
+    match_percent = 0
+    if len(job_set) > 0:
+        match_percent = round((len(matched) / len(job_set)) * 100, 2)
 
     return {
-        "match_percent": match_percent,
-        "matched_skills": matched,
-        "missing_skills": missing
+        "matched": list(matched),
+        "match_percent": match_percent
     }
 
 def calculate_match_score(resume_text, job_description_text):

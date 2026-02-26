@@ -16,3 +16,4 @@ pydantic
 tqdm
 python-dotenv
 requests
+spacy
